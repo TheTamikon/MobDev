@@ -10,11 +10,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.drawerlayout.widget.DrawerLayout;
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -22,31 +19,19 @@ public class FireActivity extends AppCompatActivity implements View.OnClickListe
     private static final String TAG = FireActivity.class.getSimpleName();
     private EditText mEmailField;
     private EditText mPasswordField;
-    // START declare_auth
     private FirebaseAuth mAuth;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fire);
-        // Views
         mEmailField = findViewById(R.id.editTextEmail);
         mPasswordField = findViewById(R.id.editTextPassword);
-        // Buttons
         findViewById(R.id.buttonSign).setOnClickListener(this);
         findViewById(R.id.buttonCreate).setOnClickListener(this);
-        // [START initialize_auth]
         mAuth = FirebaseAuth.getInstance();
-
-        ConstraintLayout c;
-        String backKey = getString(R.string.KEY_BACKGROUND);
-        String backColor = preferences.getString(backKey, "white");
-        c=findViewById(R.id.containLayout);
-        c.setBackgroundColor(Color.parseColor(backColor));
-        // [END initialize_auth]
     }
 
-    // [START on_start_check_user]
     @Override
     public void onStart() {
         super.onStart();
@@ -69,11 +54,8 @@ public class FireActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void sendEmailVerification() {
-        // Send verification email
-        // [START send_email_verification]
         final FirebaseUser user = mAuth.getCurrentUser();
         user.sendEmailVerification();
-        // [END send_email_verification]
     }
 
     private boolean validateForm() {
@@ -127,6 +109,7 @@ public class FireActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void signOut() {
+
         mAuth.signOut();
     }
 

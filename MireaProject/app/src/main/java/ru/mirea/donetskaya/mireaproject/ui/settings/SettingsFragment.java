@@ -11,11 +11,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Switch;
-
-import java.sql.CallableStatement;
 
 import ru.mirea.donetskaya.mireaproject.R;
 import ru.mirea.donetskaya.mireaproject.databinding.FragmentSettingsBinding;
@@ -58,7 +54,6 @@ public class SettingsFragment extends Fragment {
                                 "Донецкая Ангелина Алексеевна"
                         )
         );
-
         root.findViewById(R.id.buttonSave).setOnClickListener(this::onClickButSave);
         root.findViewById(R.id.buttonLight).setOnClickListener(this::onClickButLight);
         root.findViewById(R.id.buttonDark).setOnClickListener(this::onClickButDark);

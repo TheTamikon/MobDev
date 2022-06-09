@@ -8,11 +8,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-
 import ru.mirea.donetskaya.mireaproject.R;
 import ru.mirea.donetskaya.mireaproject.databinding.FragmentCalculatorBinding;
 

@@ -12,14 +12,11 @@ import android.graphics.Color;
 import android.media.MediaRecorder;
 import android.net.Uri;
 import android.os.Bundle;
-
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 import androidx.fragment.app.Fragment;
-
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.util.Log;
@@ -29,13 +26,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import ru.mirea.donetskaya.mireaproject.MainActivity;
 import ru.mirea.donetskaya.mireaproject.R;
 import ru.mirea.donetskaya.mireaproject.databinding.FragmentHardwareBinding;
 
@@ -219,7 +213,6 @@ public class HardwareFragment extends Fragment {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            // генерирование пути к файлу на основе authorities
             String authorities =
                     root.getContext().getPackageName() + ".fileprovider";
             imageUri = FileProvider.getUriForFile(

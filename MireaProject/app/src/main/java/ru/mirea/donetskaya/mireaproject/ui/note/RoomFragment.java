@@ -1,26 +1,18 @@
 package ru.mirea.donetskaya.mireaproject.ui.note;
 
 import android.os.Bundle;
-
 import androidx.fragment.app.Fragment;
-import androidx.room.Database;
 import androidx.room.Room;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 import java.util.List;
 
 import ru.mirea.donetskaya.mireaproject.databinding.FragmentRoomBinding;
 import ru.mirea.donetskaya.mireaproject.R;
-
-
 
 public class RoomFragment extends Fragment {
 
