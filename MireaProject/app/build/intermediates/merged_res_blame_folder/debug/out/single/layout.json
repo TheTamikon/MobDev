@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_browser.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_browser.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_player.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_fire.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\activity_fire.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_hardware.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_hardware.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_calculator.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_calculator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_room.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_room.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_network.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_network.xml"
+    }
+]

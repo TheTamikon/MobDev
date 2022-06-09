@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">763429798838-184ifi1ge4gm1ariic6544b20b7ed0op.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">763429798838</string>
+    <string name="google_api_key" translatable="false">AIzaSyDpVHx1EQ2rrqKy0VDrJStDB5lrPFDgKYE</string>
+    <string name="google_app_id" translatable="false">1:763429798838:android:cb2fbc6a9c9c695fb03717</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDpVHx1EQ2rrqKy0VDrJStDB5lrPFDgKYE</string>
+    <string name="google_storage_bucket" translatable="false">mireaproject-bbd4d.appspot.com</string>
+    <string name="project_id" translatable="false">mireaproject-bbd4d</string>
+</resources>

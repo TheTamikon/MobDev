@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_fire.xml" value="0.22" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/app_bar_main.xml" value="0.15601023017902813" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/content_main.xml" value="0.25" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_browser.xml" value="0.1636828644501279" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_calc.xml" value="0.3625" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_calculator.xml" value="0.3625" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_fire.xml" value="0.1" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_hardware.xml" value="0.33" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_map.xml" value="0.3625" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_network.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_player.xml" value="0.25" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_room.xml" value="0.33" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_slideshow.xml" value="0.3625" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/layout/nav_header_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/Tamikon/AndroidStudioProjects/MireaProject/app/src/main/res/xml/fileprovider.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
