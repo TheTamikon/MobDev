@@ -5,9 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -23,38 +21,16 @@ public final class FragmentRoomBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button buttonNoteAdd;
-
-  @NonNull
   public final Button buttonNoteDelete;
 
   @NonNull
   public final ListView listView;
 
-  @NonNull
-  public final TextView textNoteName;
-
-  @NonNull
-  public final TextView textNoteTExt;
-
-  @NonNull
-  public final EditText txtEditNoteName;
-
-  @NonNull
-  public final EditText txtEditNoteText;
-
-  private FragmentRoomBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonNoteAdd,
-      @NonNull Button buttonNoteDelete, @NonNull ListView listView, @NonNull TextView textNoteName,
-      @NonNull TextView textNoteTExt, @NonNull EditText txtEditNoteName,
-      @NonNull EditText txtEditNoteText) {
+  private FragmentRoomBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonNoteDelete,
+      @NonNull ListView listView) {
     this.rootView = rootView;
-    this.buttonNoteAdd = buttonNoteAdd;
     this.buttonNoteDelete = buttonNoteDelete;
     this.listView = listView;
-    this.textNoteName = textNoteName;
-    this.textNoteTExt = textNoteTExt;
-    this.txtEditNoteName = txtEditNoteName;
-    this.txtEditNoteText = txtEditNoteText;
   }
 
   @Override
@@ -84,12 +60,6 @@ public final class FragmentRoomBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.buttonNoteAdd;
-      Button buttonNoteAdd = ViewBindings.findChildViewById(rootView, id);
-      if (buttonNoteAdd == null) {
-        break missingId;
-      }
-
       id = R.id.buttonNoteDelete;
       Button buttonNoteDelete = ViewBindings.findChildViewById(rootView, id);
       if (buttonNoteDelete == null) {
@@ -102,32 +72,7 @@ public final class FragmentRoomBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textNoteName;
-      TextView textNoteName = ViewBindings.findChildViewById(rootView, id);
-      if (textNoteName == null) {
-        break missingId;
-      }
-
-      id = R.id.textNoteTExt;
-      TextView textNoteTExt = ViewBindings.findChildViewById(rootView, id);
-      if (textNoteTExt == null) {
-        break missingId;
-      }
-
-      id = R.id.txtEditNoteName;
-      EditText txtEditNoteName = ViewBindings.findChildViewById(rootView, id);
-      if (txtEditNoteName == null) {
-        break missingId;
-      }
-
-      id = R.id.txtEditNoteText;
-      EditText txtEditNoteText = ViewBindings.findChildViewById(rootView, id);
-      if (txtEditNoteText == null) {
-        break missingId;
-      }
-
-      return new FragmentRoomBinding((ConstraintLayout) rootView, buttonNoteAdd, buttonNoteDelete,
-          listView, textNoteName, textNoteTExt, txtEditNoteName, txtEditNoteText);
+      return new FragmentRoomBinding((ConstraintLayout) rootView, buttonNoteDelete, listView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

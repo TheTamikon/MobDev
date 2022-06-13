@@ -2546,6 +2546,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable add
 drawable android
 drawable avd_hide_password
 drawable avd_show_password
@@ -2651,6 +2652,7 @@ drawable pencil
 drawable play
 drawable set
 drawable side_nav_bar
+drawable signout
 drawable stop
 drawable test_custom_background
 drawable test_level_drawable
@@ -2772,7 +2774,6 @@ id button
 id buttonCreate
 id buttonDark
 id buttonLight
-id buttonNoteAdd
 id buttonNoteDelete
 id buttonPanel
 id buttonSave
@@ -2917,6 +2918,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
 id imageViewHardware
 id immediateStop
 id included
@@ -3161,6 +3163,7 @@ id text2
 id textEnd
 id textNoteName
 id textNoteTExt
+id textNoteText
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -3338,6 +3341,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_fire
 layout activity_main
+layout add_note
 layout app_bar_main
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row

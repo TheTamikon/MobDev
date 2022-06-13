@@ -222,8 +222,18 @@ public class HardwareFragment extends Fragment {
             );
             Log.d("TAG", imageUri.toString());
             cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
-            startActivityForResult(cameraIntent, CAMERA_REQUEST);
+            startActivityForResult(cameraIntent,CAMERA_REQUEST);
+        }
+
+    }
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == CAMERA_REQUEST ) {
             imageView.setImageURI(imageUri);
+            Log.d("TAG", imageUri.getPath());
+        } else if(data == null){
+            Log.d("TAG", "intent is null");
         }
     }
 

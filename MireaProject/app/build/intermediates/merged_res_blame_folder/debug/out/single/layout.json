@@ -24,6 +24,10 @@
         "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_hardware.xml"
     },
     {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_note.xml",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\add_note.xml"
+    },
+    {
         "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
         "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\content_main.xml"
     },

@@ -9,83 +9,23 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        app:layout_constraintBottom_toTopOf="@+id/textNoteTExt"
+        android:layout_width="406dp"
+        android:layout_height="541dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/buttonNoteAdd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="on_btnSubmitClick_dataRoomFragment"
-        android:text="Добавить"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.055"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtEditNoteName"
-        app:layout_constraintVertical_bias="0.393" />
-
-    <TextView
-        android:id="@+id/textNoteName"
-        android:layout_width="229dp"
-        android:layout_height="21dp"
-        android:text="Текст заметки:"
-        app:layout_constraintBottom_toTopOf="@+id/txtEditNoteText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.911"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.949" />
-
-    <EditText
-        android:id="@+id/txtEditNoteName"
-        android:layout_width="120dp"
-        android:layout_height="40dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.054"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.794" />
-
-    <TextView
-        android:id="@+id/textNoteTExt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Название заметки:"
-        app:layout_constraintBottom_toTopOf="@+id/txtEditNoteName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.056"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.95" />
-
-    <EditText
-        android:id="@+id/txtEditNoteText"
-        android:layout_width="245dp"
-        android:layout_height="38dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.825"
-        app:layout_constraintStart_toEndOf="@+id/txtEditNoteName"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.794" />
 
     <Button
         android:id="@+id/buttonNoteDelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="16dp"
         android:onClick="on_btnRemoveClick_dataRoomFragment"
-        android:text="Очистить"
+        android:text="Удалить все заметки"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.866"
-        app:layout_constraintStart_toEndOf="@+id/buttonNoteAdd"
-        app:layout_constraintTop_toBottomOf="@+id/txtEditNoteText"
-        app:layout_constraintVertical_bias="0.393" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

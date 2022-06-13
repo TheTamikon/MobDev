@@ -6,20 +6,28 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be1a6d92-4ee1-4b6f-a645-b900172bf523" name="Default Changelist" comment="init project" />
+    <list default="true" id="be1a6d92-4ee1-4b6f-a645-b900172bf523" name="Default Changelist" comment="init project">
+      <change afterPath="$PROJECT_DIR$/../laboratory1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice5/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice7/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice3/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice3/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../practice6/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice6/.idea/gradle.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Tamikon\.android\avd\Pixel_2_API_30.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Tamikon\.android\avd\Pixel_2_API_26.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -29,9 +37,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="layoutResourceFile" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -46,9 +54,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectId" id="2AFe0hAMW51FIQMsojOlpH6rXYy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -62,12 +67,15 @@
     <property name="TODO_SCOPE" value="All Places" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/MobDev-main/practice1" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/MobDev-main/practice6" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Tamikon\AndroidStudioProjects\MireaProject\app\src\main\res\drawable" />
       <recent name="C:\Users\Tamikon\AndroidStudioProjects\MireaProject\app\src\main\res\raw" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tamikon\AndroidStudioProjects\MireaProject\app\src\main\res\drawable" />
     </key>
   </component>
   <component name="RunManager">

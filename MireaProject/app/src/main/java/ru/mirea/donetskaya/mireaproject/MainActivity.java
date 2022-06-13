@@ -1,6 +1,9 @@
 package ru.mirea.donetskaya.mireaproject;
 
+import android.app.Dialog;
+import android.app.FragmentTransaction;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -9,11 +12,14 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -23,9 +29,12 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.auth.FirebaseAuth;
 
+import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
@@ -33,7 +42,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
-
+import androidx.fragment.app.DialogFragment;
 import ru.mirea.donetskaya.mireaproject.databinding.ActivityMainBinding;
 import ru.mirea.donetskaya.mireaproject.ui.calc.CalculatorFragment;
 import ru.mirea.donetskaya.mireaproject.ui.hardware.HardwareFragment;
@@ -44,10 +53,13 @@ import ru.mirea.donetskaya.mireaproject.ui.map.MapFragment;
 
 public class MainActivity extends AppCompatActivity implements
         GoogleMap.OnMapClickListener, SensorEventListener{
+
+    NavController navController;
+
     private boolean playFlag = false;
+    private boolean noteFlag = false;
     private ImageView playImage;
     private SensorManager sensorManager;
-
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
     public static SharedPreferences preferences;
@@ -83,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements
                 R.id.nav_player)
                 .setOpenableLayout(drawer)
                 .build();
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
@@ -93,6 +105,46 @@ public class MainActivity extends AppCompatActivity implements
         d=findViewById(R.id.drawer_layout);
         d.setBackgroundColor(Color.parseColor(backColor));
 
+
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AddNoteDialog addNote = new AddNoteDialog();
+                addNote.show(getSupportFragmentManager(), "Заметка");
+
+            }
+        });
+
+    }
+    public void onSignOut(View v){
+        FirebaseAuth.getInstance().signOut();
+        Intent intent = new Intent(this, FireActivity.class);
+        startActivity(intent);
+    }
+    public void onAddClicked(View v) {
+
+        Fragment hostFragment = (NavHostFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.nav_host_fragment_content_main);
+        Fragment fragment =
+                hostFragment.getChildFragmentManager().getFragments().get(0);
+        EditText toDo = (EditText) v.findViewById(R.id.txtEditNoteName);
+        EditText whenDo = (EditText) v.findViewById(R.id.txtEditNoteText);
+        String toDoTxt = toDo.getText().toString();
+        String whenDoTxt = whenDo.getText().toString();
+
+        if (fragment != null && fragment.isVisible()) {
+            if (fragment instanceof RoomFragment) {
+                ((RoomFragment) fragment).on_btnSubmitClick(toDoTxt, whenDoTxt);
+                Toast.makeText(getApplicationContext(), "Добавлена новая заметка", Toast.LENGTH_LONG).show();
+            }
+        }
+
+    }
+
+    public void onCancelClicked() {
+        Toast.makeText(getApplicationContext(), "Действие отменено", Toast.LENGTH_LONG).show();
     }
     @Override
     public void onStart() {
@@ -255,23 +307,6 @@ public class MainActivity extends AppCompatActivity implements
         }
     }
 
-    public void on_btnSubmitClick_dataRoomFragment(View v) {
-        Fragment hostFragment = (NavHostFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.nav_host_fragment_content_main);
-        Fragment fragment =
-                hostFragment.getChildFragmentManager().getFragments().get(0);
-
-        EditText toDo = (EditText) findViewById(R.id.txtEditNoteName);
-        EditText whenDo = (EditText) findViewById(R.id.txtEditNoteText);
-        String toDoTxt = toDo.getText().toString();
-        String whenDoTxt = whenDo.getText().toString();
-
-        if (fragment != null && fragment.isVisible()) {
-            if (fragment instanceof RoomFragment) {
-                ((RoomFragment) fragment).on_btnSubmitClick(v, toDoTxt, whenDoTxt);
-            }
-        }
-    }
     public void on_btnRemoveClick_dataRoomFragment(View v) {
         Fragment hostFragment = (NavHostFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.nav_host_fragment_content_main);
@@ -284,5 +319,4 @@ public class MainActivity extends AppCompatActivity implements
             }
         }
     }
-
 }

@@ -2545,6 +2545,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f070052
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f070053
 int drawable abc_textfield_search_material 0x7f070054
 int drawable abc_vector_test 0x7f070055
+int drawable add 0x7f0700c4
 int drawable android 0x7f070056
 int drawable avd_hide_password 0x7f070057
 int drawable avd_show_password 0x7f070058
@@ -2650,6 +2651,7 @@ int drawable pencil 0x7f0700bb
 int drawable play 0x7f0700bc
 int drawable set 0x7f0700bd
 int drawable side_nav_bar 0x7f0700be
+int drawable signout 0x7f0700c5
 int drawable stop 0x7f0700bf
 int drawable test_custom_background 0x7f0700c0
 int drawable test_level_drawable 0x7f0700c1
@@ -2771,7 +2773,6 @@ int id button 0x7f080070
 int id buttonCreate 0x7f080071
 int id buttonDark 0x7f080072
 int id buttonLight 0x7f080073
-int id buttonNoteAdd 0x7f080074
 int id buttonNoteDelete 0x7f080075
 int id buttonPanel 0x7f080076
 int id buttonSave 0x7f080077
@@ -2916,6 +2917,7 @@ int id ignore 0x7f080101
 int id ignoreRequest 0x7f080102
 int id image 0x7f080103
 int id imageView 0x7f080104
+int id imageView2 0x7f08024e
 int id imageViewHardware 0x7f080105
 int id immediateStop 0x7f080106
 int id included 0x7f080107
@@ -3160,6 +3162,7 @@ int id text2 0x7f0801f5
 int id textEnd 0x7f0801f6
 int id textNoteName 0x7f0801f7
 int id textNoteTExt 0x7f0801f8
+int id textNoteText 0x7f08024d
 int id textSpacerNoButtons 0x7f0801f9
 int id textSpacerNoTitle 0x7f0801fa
 int id textStart 0x7f0801fb
@@ -3337,6 +3340,7 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_fire 0x7f0b001c
 int layout activity_main 0x7f0b001d
+int layout add_note 0x7f0b008f
 int layout app_bar_main 0x7f0b001e
 int layout browser_actions_context_menu_page 0x7f0b001f
 int layout browser_actions_context_menu_row 0x7f0b0020

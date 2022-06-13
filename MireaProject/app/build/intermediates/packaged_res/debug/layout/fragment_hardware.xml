@@ -78,8 +78,8 @@
 
     <ImageView
         android:id="@+id/imageViewHardware"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/button"

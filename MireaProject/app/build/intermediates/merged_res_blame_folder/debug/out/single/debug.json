@@ -4,28 +4,32 @@
         "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\layout_add_note.xml.flat",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\add_note.xml"
+    },
+    {
         "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_camera.xml.flat",
         "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_slideshow.xml.flat",
-        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
-    },
-    {
         "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_main.xml.flat",
         "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
     },
     {
         "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\drawable_stop.png.flat",
@@ -44,16 +48,20 @@
         "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_map.xml"
     },
     {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\drawable_add.png.flat",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\drawable\\add.png"
+    },
+    {
         "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_hardware.xml.flat",
         "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\fragment_hardware.xml"
     },
     {
-        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\xml_fileprovider.xml.flat",
-        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\xml\\fileprovider.xml"
-    },
-    {
         "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\drawable_calc.png.flat",
         "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\drawable\\calc.png"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\xml_fileprovider.xml.flat",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\xml\\fileprovider.xml"
     },
     {
         "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\drawable_home.png.flat",
@@ -182,6 +190,10 @@
     {
         "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_fire.xml.flat",
         "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\layout\\activity_fire.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\drawable_signout.png.flat",
+        "source": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\src\\main\\res\\drawable\\signout.png"
     },
     {
         "merged": "C:\\Users\\Tamikon\\AndroidStudioProjects\\MireaProject\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_browser.xml.flat",

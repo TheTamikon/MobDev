@@ -22,7 +22,7 @@ public class SettingsFragment extends Fragment {
     private String KEY_NAME;
     private String KEY_BACKGROUNG;
     private EditText txtEditHomeP, txtEditNameP;
-
+    View root;
     @Override
     public View onCreateView(
             @NonNull LayoutInflater inflater,
@@ -37,7 +37,7 @@ public class SettingsFragment extends Fragment {
                 container,
                 false
         );
-        View root = binding.getRoot();
+        root = binding.getRoot();
         txtEditHomeP = root.findViewById(R.id.txtEditHomePage);
         txtEditHomeP.setText(
                 preferences
@@ -73,10 +73,12 @@ public class SettingsFragment extends Fragment {
         SharedPreferences.Editor editor = preferences.edit();
         editor.putString(KEY_BACKGROUNG, "white");
         editor.apply();
+        root.setBackgroundColor(Color.parseColor("white"));
     }
     public void onClickButDark(View view){
         SharedPreferences.Editor editor = preferences.edit();
         editor.putString(KEY_BACKGROUNG, "#373737");
         editor.apply();
+        root.setBackgroundColor(Color.parseColor("#373737"));
     }
 }

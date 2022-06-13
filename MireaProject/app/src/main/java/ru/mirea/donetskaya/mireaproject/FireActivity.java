@@ -108,7 +108,7 @@ public class FireActivity extends AppCompatActivity implements View.OnClickListe
                 });
     }
 
-    private void signOut() {
+    public void signOut() {
 
         mAuth.signOut();
     }
